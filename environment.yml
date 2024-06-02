@@ -1,0 +1,24 @@
+name: N2ME
+channels:
+  - conda-forge
+  - default
+  - pytorch
+dependencies:
+  - pytorch::pytorch=2.0.0
+  - pytorch::torchaudio=2.0.0
+  - pytorch::torchvision=0.15.0
+  - dlib
+  - face_recognition
+  - imageio
+  - ipykernel
+  - matplotlib
+  - numpy
+  - pandas
+  - pip
+  - pyqt
+  - scikit-image
+  - scikit-learn
+  - tensorboard
+  - tqdm
+  - pip:
+    - opencv-python-headless
